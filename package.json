@@ -19,7 +19,8 @@
     "react-dom": "18.2.0",
     "react-redux": "^8.0.5",
     "react-world-flags": "^1.5.1",
-    "redux": "^4.2.1"
+    "redux": "^4.2.1",
+    "vercel": "^28.16.15"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

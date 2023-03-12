@@ -37,6 +37,7 @@ function Header() {
 
                     <Image
                         src='https://links.papareact.com/f90'
+                        alt='visual-content'
                         width={90}
                         height={40}
                         style={{ objectFit: "contain" }}

@@ -65,8 +65,8 @@ function SideBarNavLink({ navVisibleStatus, handleNavStatus }) {
                         >
                             <ul>
                                 {
-                                    allNavLinks.map(({ name }) => {
-                                        return <li className='text-lg pb-5 font-medium'>{name}</li>
+                                    allNavLinks.map(({ name, id }) => {
+                                        return <li key={id} className='text-lg pb-5 font-medium'>{name}</li>
                                     })
                                 }
                             </ul>
