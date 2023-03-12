@@ -121,7 +121,7 @@ function Header() {
                     <span>All</span>
                 </p>
 
-                <p className="hidden sm:inline link">Today's Deals</p>
+                <p className="hidden sm:inline link">Today&rsquo;s Deals</p>
 
                 <p className="hidden sm:inline link">Customer Service</p>
 
