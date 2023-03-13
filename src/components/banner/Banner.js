@@ -52,7 +52,7 @@ function Banner() {
                 {/* Images from assets */}
                 {
                     bannerAllImages.map(({ id, url }) => (
-                        <div>
+                        <div key={id}>
                             <Image loading='lazy' src={url} key={id} alt="" />
                         </div>
                     ))

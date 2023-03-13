@@ -4,7 +4,7 @@ import { ShoppingCartIcon, MagnifyingGlassIcon, Bars3Icon, ChevronDownIcon, User
 import Flag from 'react-world-flags';
 import MobileHeaderSearch from "./mobile/MobileHeaderSearch";
 import SideBarNavLink from "./nav_links/SideBarNavLink";
-import amazonLogo from '../../assets/amazon_logo.webp'
+import amazonLogo from '../../assets/amazon_logo.webp';
 
 function Header() {
 
@@ -104,7 +104,6 @@ function Header() {
 
             </div>
             {/* Top nav End */}
-
 
             {/* Search mobile screen start */}
             <MobileHeaderSearch />
