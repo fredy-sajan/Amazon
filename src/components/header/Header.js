@@ -4,6 +4,7 @@ import { ShoppingCartIcon, MagnifyingGlassIcon, Bars3Icon, ChevronDownIcon, User
 import Flag from 'react-world-flags';
 import MobileHeaderSearch from "./mobile/MobileHeaderSearch";
 import SideBarNavLink from "./nav_links/SideBarNavLink";
+import amazonLogo from '../../assets/amazon_logo.webp'
 
 function Header() {
 
@@ -36,7 +37,7 @@ function Header() {
                     {/* Mobile screen menu bar */}
 
                     <Image
-                        src='https://links.papareact.com/f90'
+                        src={amazonLogo}
                         alt='visual-content'
                         width={90}
                         height={40}

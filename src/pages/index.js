@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import Header from '@/components/header/Header'; // component import
+import Banner from '@/components/banner/Banner';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,14 @@ export default function Home() {
 
       {/* Header */}
       <Header />
+
+      {/* main */}
+      <main className='max-w-screen-2xl mx-auto bg-amazon_home_background_color-dark_white'> 
+        {/* Banner */}
+        <Banner />
+
+        {/* Home Feed */}
+      </main>
       
       
     </>
