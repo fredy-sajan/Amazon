@@ -255,7 +255,7 @@ function HomeFeedPcScreen() {
         <div id="header_top_deals" className='w-full h-10 flex items-center space-x-3'>
 
           <div id="text_head" className=''>
-            <h1 className='text-black md:text-lg lg:text-xl xl:text-2xl font-bold'>Today's Deals</h1>
+            <h1 className='text-black md:text-lg lg:text-xl xl:text-2xl font-bold'>Today&sbquo;s Deals</h1>
           </div>
 
           <div id="seeall">
